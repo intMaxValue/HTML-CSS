@@ -1,0 +1,52 @@
+div.viewport {
+    
+}
+section.card{
+    position: absolute;
+}
+section.card1{
+    display: block;
+    background: rgb(24,92,157);
+    background: linear-gradient(90deg, rgba(24,92,157,1) 17%, rgba(66,204,162,1) 79%);
+    height: 50vh;
+    width: 100vw;
+    
+}
+section.card2{
+    
+    background: rgb(167,50,120);
+    background: linear-gradient(90deg, rgba(167,50,120,1) 17%, rgba(211,129,17,1) 79%);
+    height: 50vh;
+    width: 100vw;
+    top: 50%;
+    
+}
+
+section.card1 img{
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+section.card2 img{
+    display: block;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pic2{
+    position: absolute;
+    top: 83%;
+    left: 84%;
+}
+.card2 i{
+    
+    
+}

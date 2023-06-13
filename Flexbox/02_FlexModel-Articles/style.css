@@ -1,0 +1,13 @@
+h2{
+    font: 16px/ 1.2 Georgia, serif;
+}
+
+p{
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+}

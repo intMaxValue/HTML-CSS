@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 32px;
+}
+h2{
+    margin-bottom: 24px;
+}
+.masonry{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100vh;
+    gap: 2em;
+    
+}
+
+.card{
+    flex: 0 0 25%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h3, .card p{
+    padding: 1em;
+    
+}
+
+.card footer{
+    margin-top: auto;
+    padding: 1em;
+    border-top: 1px solid black;
+    align-self: flex-end;
+}

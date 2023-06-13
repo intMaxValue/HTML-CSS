@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 700px;
+}
+ul li{
+    display: inline-block;
+    
+    margin: 24px;
+    padding: 12px;
+}
+ul li a{
+    border-radius: 50%;
+    
+}
+
+.fa-brands{
+    color: black;
+}
+.fa-brands:hover{
+    color: #4267B2;
+}

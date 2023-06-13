@@ -1,0 +1,25 @@
+body{
+    display: flex;
+}
+body ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 35%;
+    gap: 36px
+}
+body ul li{
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    border: 5px solid black;
+    padding: 12px;
+    box-shadow: 0 0 15px black;
+    
+}
+
+body ul li img{
+    
+    
+}
