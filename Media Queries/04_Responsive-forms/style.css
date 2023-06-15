@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+p{
+    display: inline;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login{
+    border: 1px solid black;
+    width: 360px;
+    padding: 1.5rem;
+
+}
+.user{
+    margin: 6px 0;
+}
+.pass{
+    margin: 6px 0;
+}
+.title{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: white;
+    padding: 6px;
+    width: 160px;
+    position: absolute;
+    bottom: 91%;
+    font-weight: bold;
+}
+.form-window{
+    
+}
+.btn{
+    color: white;
+    background: black;
+    border-radius: 6px;
+    margin-top: 1.25rem;
+    padding: 6px 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.fa-user{
+    position: absolute;
+    left: 31.5%;
+    top: 21%;
+}
+.fa-key{
+    position: absolute;
+    left: 31%;
+    top: 43%;
+}
+.passbox:focus + .fa-solid.fa-key,
+.userbox:focus + .fa-solid.fa-user{
+    display: none;
+}
+
+.pass{
+    margin-left: 1px;
+}
+label{
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    
+}
