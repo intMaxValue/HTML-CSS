@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* COLORS 
+beige: #9c928b
+light beige: #d4d2d2
+pause: #7e7978
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Abril Fatface', cursive;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    background-image: url(image/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+header{
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.81);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.81);
+    
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    width: 160px;
+    height: 140px;
+    padding: 8px;
+
+}
+.divider{
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+header p{
+    font-size: 11px;
+}
+.quote{
+    background: rgb(156,146,139);
+    background: linear-gradient(90deg, rgba(156,146,139,1) 18%, rgba(212,210,210,1) 81%);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.81);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.81);
+    
+    position: absolute;
+    right: 32px;
+    top: 130px;
+    
+    width: 230px;
+    height: 230px;
+    text-align:end;
+    padding: 18px 14px;
+    font-size: 13px;
+    line-height: 1.5;
+    color:#f9f9ed;
+}
+.quote i{
+    color: #7e7978;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "services aside"
+                "contact aside";
+}
+.services{
+    grid-area: services;
+    padding: 36px 48px;
+}
+.services h2{
+    padding: 24px 38px;
+    font-size: 42px;
+}
+.services ul{
+    list-style-type: none;
+}
+.services ul li{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.fa-circle-arrow-right{
+    margin-right: 16px;
+}
+.title{
+    font-weight: bold;
+}
+.contact{
+    grid-area: contact;
+    padding: 36px 48px;
+
+}
+.contact h2{
+    font-size: 42px;
+    padding: 24px 38px;
+}
+.contact ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 90%;
+}
+.contact ul li *{
+    font-size: 24px;
+}
+.contact ul li{
+    margin-left: 28px;
+    line-height: 1.5;
+}
+.divider{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+.init{
+    font-weight: bold;
+    font-style: italic;
+}
+.email{
+    padding: 24px 38px;
+}
+.email .enter-email{
+    background-color: #bab1ae;
+    padding: 12px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.email .enter-email::placeholder{
+    color: white;
+}
+.btn{
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 8px;
+}
+.aside{
+    grid-area: aside;
+    padding: 24px 38px;
+    background-color: #bab1ae;
+    text-align: start;
+}
+.aside ul{
+    list-style-type: none;
+}
+.aside .nums{
+    color: white;
+    font-size: 5rem;
+    font-weight: 300;
+}
+.aside .txt{
+    display: block;
+}
+.aside ul li:not(:last-child){
+    margin-bottom: 150px;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+table{
+    
+    width: 100vw;
+    border: 1px solid black;
+    
+}
+thead{
+    background-color: black;
+    color: white;
+    flex: 0 0 100%;
+}
+td{
+    
+    border: 1px solid black;
+    padding: 4px;
+    
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+@media (max-width: 375px){
+    table{
+        display: flex;
+        flex-direction: column;
+    }
+}

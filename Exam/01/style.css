@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
+
+/* COLORS 
+main-grey: #D9D9D9
+enterprise: #5E6366
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+.site{
+    height: 100vh;
+    background-color: #D9D9D9;
+    
+}
+.cards{
+    display: flex;
+    width: 90%;
+    gap: 24px;
+    padding: 48px;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.card{
+    box-shadow: 5px 4px 12px -1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 5px 4px 12px -1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 5px 4px 12px -1px rgba(0,0,0,0.67);
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.photo{
+    width: 100%;
+}
+h2{
+    color: #5E6366;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.sub-title{
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+.card-content{
+    padding: 24px;
+    font-size: 15px;
+}
+.content{
+    color: #5E6366;
+    margin-bottom: 12px;
+    
+}
+.divider{
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    
+}
+.avatar{
+    height: 50px;
+    border-radius: 100%;
+    min-width: 50px;
+    object-fit: cover;
+    
+}
+.name{
+    margin-left: 12px;
+}
+.time{
+    color: #5E6366;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-left: auto;
+}
+
+.photo2{
+    height: 263px;
+    width: 100%;
+    
+}

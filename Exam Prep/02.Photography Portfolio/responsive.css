@@ -1,0 +1,56 @@
+@media (width <= 600px){
+    .navigation-nav,
+    .home-text,
+    .home-image-container{
+        display: none;
+    }
+    .navigation-header{
+        position: static;
+    }
+    .home-text01{
+        margin-top: 0;
+    }
+    .button.button-lg.button-secondary{
+        margin-bottom: 24px;
+    }
+
+    .home-tab-selector-cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .home-process{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .section-container{
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+    .home-top-part,
+    .home-links-container
+    {
+        flex-flow: column nowrap;
+    }
+
+    .home-product-container,
+    .home-navigate-container,
+    .home-contact-container{
+        padding-bottom: 24px;
+    }
+
+    .home-subscribe-container{
+        width: 100%;
+    }
+    .button-primary.button{
+        padding: 22px;
+    }
+    .home-text10{
+        margin-right: 32px;
+    }
+    .home-textinput{
+        width: 100%;
+    }
+}
